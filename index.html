@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator by.saep</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+<div  class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="d-flex flex-column">
+        <h1>PASSWORD GENERATOR</h1><br>
+        <div class="d-flex flex-column gap-2 mt-2">
+            <label for="passwordLength" class="text-uppercase fw-bold">Panjang Password</label>
+            <input type="number" name="" id="passwordLength" class="form-control form-control-lg">
+            <label for="password" class="text-uppercase fw-bold">Password</label>
+            <input type="password" name="" id="password" class="form-control form-control-lg" disabled>
+            <button class="btn btn-dark text-uppercase fw-bold btn-lg mt-2" onclick="getPassword()">generate password</button>
+            <a class="btn btn-primary text-uppercase fw-bold btn-lg mt-2" onclick="savePassword()" id="saveButton">save password</a>
+        </div>
+    </div>
+</div>
+
+<footer class="text-center mb-3"><p>by.saep</p></footer>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
